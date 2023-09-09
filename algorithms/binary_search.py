@@ -3,7 +3,7 @@ my_list = [0, 1, 2, 5, 4, 5, 6, 42]
 
 def binary_search(l, target):
     left = 0
-    right = len(l)
+    right = len(l) - 1
     while left <= right:
         middle = (right + left)//2
         if target == l[middle]:
